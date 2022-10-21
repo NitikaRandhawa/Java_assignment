@@ -98,3 +98,14 @@ public class MinMax {
         MinMax dList = new MinMax();  
         //Add nodes to the list  
         dList.addNode(5);
+dList.addNode(7);  
+        dList.addNode(9);  
+        dList.addNode(1);  
+        dList.addNode(2);  
+  
+        //Prints the minimum value node in the list  
+        System.out.println("Minimum value node in the list: "+ dList.minimumNode());  
+        //Prints the maximum value node in the list  
+        System.out.println("Maximum value node in the list: "+ dList.maximumNode());  
+    }  
+}
